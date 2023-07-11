@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "64877c3c977a304fbf5d8598"
+  },
+  "postId": {
+    "$oid": "64a9f43464c1c1d460f91e7a"
+  },
+  "userId": {
+    "$oid": "64aab44e21b75abc2d297eb3"
+  },
+  "text": "comment 1",
+  "createdAt": {
+    "$date": "2023-07-09T23:50:44.377Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-09T23:50:44.377Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64877c43977a304fbf5d859a"
+  },
+  "postId": {
+    "$oid": "64a9f43464c1c1d460f91e7a"
+  },
+  "userId": {
+    "$oid": "64aab45b21b75abc2d297eb7"
+  },
+  "text": "comment 2",
+  "createdAt": {
+    "$date": "2023-07-09T23:51:24.227Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-09T23:51:24.227Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64877c69977a304fbf5d859c"
+  },
+  "postId": {
+    "$oid": "64a9f54f64c1c1d460f91e90"
+  },
+  "userId": {
+    "$oid": "64aab46821b75abc2d297ebb"
+  },
+  "text": "comment 3",
+  "createdAt": {
+    "$date": "2023-07-09T23:53:31.137Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-09T23:53:31.137Z"
+  },
+  "__v": 0
+}]

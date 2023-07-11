@@ -1,0 +1,50 @@
+[
+  {
+    "_id": {
+      "$oid": "64aab44e21b75abc2d297eb3"
+    },
+    "username": "username1",
+    "email": "example1@example.com",
+    "password": "$2a$12$eOQ.8haRihq.0fGVvNaWx.XcX1OwGqProu9vr1mh1xLIHRCFIBLuq",
+    "token": "",
+    "createdAt": {
+      "$date": "2023-07-09T13:21:18.177Z"
+    },
+    "updatedAt": {
+      "$date": "2023-07-09T13:21:18.198Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64aab45b21b75abc2d297eb7"
+    },
+    "username": "username2",
+    "email": "example2@example.com",
+    "password": "$2a$12$759QNzPXl7R7PwRvOgeaHuXmnQcR.TZo8X2LRJtQt7tdfPC1c/dh6",
+    "token": "",
+    "createdAt": {
+      "$date": "2023-07-09T13:21:31.003Z"
+    },
+    "updatedAt": {
+      "$date": "2023-07-09T13:21:31.008Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64aab46821b75abc2d297ebb"
+    },
+    "username": "username3",
+    "email": "example3@example.com",
+    "password": "$2a$12$NWTb4whlDOnQdWKcpm69s.VlLTAA6eGj0kjpX8HUpcaJTtNS5psKa",
+    "token": "",
+    "createdAt": {
+      "$date": "2023-07-09T13:21:44.104Z"
+    },
+    "updatedAt": {
+      "$date": "2023-07-09T13:21:44.111Z"
+    },
+    "__v": 0
+  }
+]
