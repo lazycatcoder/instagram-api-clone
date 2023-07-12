@@ -13,7 +13,7 @@ router.get('/', isValid, postsController.getAllPosts);
 router.post('/', isAuth, postsController.createPost);
 
 // GET /api/posts/user/:userId
-router.get('/user/:userId', [isAuth, isValid], postsController.getUserPosts);
+router.get('/user/:userId', isValid, postsController.getUserPosts);
 
 // GET /api/posts/:postId
 router.get('/:postId', isValid, postsController.getPostById);
