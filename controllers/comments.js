@@ -1,4 +1,5 @@
 const Comment = require('../models/comment');
+const User = require('../models/user');
 
 
 exports.getAllComments = async (req, res) => {
@@ -17,11 +18,21 @@ exports.getAllComments = async (req, res) => {
 
 exports.createComment = async (req, res) => {
   try {
-    const { userId, postId, text } = req.body;
+    const { postId, text } = req.body;
+    const token = req.headers.authorization.split(' ')[1];
+
+    const user = await User.findOne({ token });
+    if (!user) {
+      return res.status(401).json({ error: 'Invalid token.' });
+    }
+
+    const userId = user._id;
+
     const newComment = new Comment({ userId, postId, text });
     const savedComment = await newComment.save();
     res.json(savedComment);
   } catch (error) {
+    console.error(error);
     res.status(500).json({ error: 'Internal server error.' });
   }
 };
