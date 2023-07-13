@@ -129,6 +129,11 @@ Download Postman from *https://www.postman.com/* if you don't have it installed.
 
 ⚠️ *when you test this API in **Postman**, for requests where Authentication is required ("+"), in the "Authorization" (or "Headers") section, you must add the Token that was generated when the User logged into the system.*
 
+<p align="center">
+  <img src="img1.jpg" width="100%"/>
+  <br>
+</p>
+
 </div>
 
 <br>
@@ -164,6 +169,11 @@ Download Postman from *https://www.postman.com/* if you don't have it installed.
 🚩 *in the **"Get all posts"** and **"Get all posts of a specific user"** routes, pagination can be used (displaying no more than 10 entries per page), to go to the next page, you need to change the page number at the end of the link **"/api/posts?page=1"** and **"/api/posts/user/:userId?page=1"**.*
 
 🚩 *for the **"Create new post"** route, in **Postman** in the "Body" section select the **"form-data"** option. Next, in "KEY" enter "image" (field type File), in "VALUE" you need to upload a JPG image file (you can also add a field **Description**, "KEY": "description", "VALUE": "your text").*
+
+<p align="center">
+  <img src="img2.jpg" width="100%"/>
+  <br>
+</p>
 
 <br>
 
